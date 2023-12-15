@@ -1,0 +1,4 @@
+- Tarayıcı: Brave, Chrome (tavsiye olarak)
+
+- Kod editörü: Visual Studio Code
+- Eklentiler: 2077 theme, HTML Snippets, Live server

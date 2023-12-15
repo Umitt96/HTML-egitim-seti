@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablo özellikleri</title>
+
+    <style>
+        tr,td,th{
+            padding: 4px 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 3x5 lik bir tablo oluştur -->
+    yemek listesi oluştur: id, yemek, kategori,fiyat
+
+    <table border="1">
+        <colgroup>
+            <col span="1" style="background-color:aqua;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th style="width: 60%;">yemek</th>
+                <th style="width: 15%;">kategori</th>
+                <th>fiyat</th>
+                <th style="width: 5%;">puan</th>
+            </tr>
+        </thead>
+       
+        <tr>
+            <td>399</td>
+            <td>Fırında tavuk</td>
+            <td> ana yemek</td>
+            <td>150 ₺</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>965</td>
+            <td>Makarna</td>
+            <td> yrd. yemek</td>
+            <td>45 ₺</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>763</td>
+            <td>Mercimek çorbası</td>
+            <td> yrd. yemek</td>
+            <td rowspan="2">60 ₺</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>339</td>
+            <td>Sütlaç</td>
+            <td> tatlı</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>999</td>
+            <td colspan="4">Stokta kalmadı</td>
+    </table>
+</body>
+</html>

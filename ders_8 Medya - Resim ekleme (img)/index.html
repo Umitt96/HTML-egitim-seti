@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medya - img</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">:
+</head>
+<body>
+    <section>
+         <div>
+            <img src="assets/garson.png" alt="">
+            <img src="assets/garon.png" alt="garson resmi">
+            <img src="assets/garson.png" alt="">
+            <img src="assets/garson.png" alt="">
+            <img src="assets/garson.png" alt="">
+        </div> 
+
+        <div>
+            <picture>
+                <!-- mobil -->
+                <source media="(max-width: 700px)" srcset="assets/garson.png">
+                <!-- pc -->
+                <source media="(min-width: 1200px)" srcset="assets/yağmur.png">
+                <!-- 700px - 1200px  arası -->
+                <img src="assets/oda.png" alt="">
+            </picture>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listeler ve özellikleri</title>
+    <style>
+        tr,td{padding: 10px;}
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th style="width: 30%;">Sıralı liste</th>
+            <th style="width: 30%;">Sırasız liste</th>
+            <th style="width: 30%;"> Açıklama listesi</th>
+        </tr>
+        <tr>
+            <td>
+                <!-- sıralı liste -->
+                <p>2024 yılının ilgi çeken olayları</p>
+                <ol type="1" start="10">
+                    <li>GTA VI</li>
+                    <li>Deprem</li>
+                    <li>Savaş-Boykot</li>
+                    <li>Borsa ve halka arz</li>
+                </ol>
+            </td>
+            <td>
+                <!-- sırasız liste -->
+                <p>Marketten alınacaklar</p>
+                <ul style="list-style-type: square;">
+                    <li>Yumurta</li>
+                    <li>Tavuk göğsü</li>
+                    <li>Hamur mayası</li>
+                    <li>Ekmek</li>
+                    <li>Kahve</li>
+                </ul>
+            </td>
+
+            <td>
+                <p>Bilgisayar parçaları</p>
+                <dl>
+                    <dt>Anakart</dt>
+                    <dd>İşlemci</dd>
+                    <dd>Ekran kartı</dd>
+                    <dt>Monitör</dt>
+                    <dt>Klavye</dt>
+                    <dd>Klavye ışığı</dd>
+                </dl>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form özellikleri</title>
+</head>
+<body>
+  <section>
+    <div>
+      <form action="action_page.php" method="get">
+        <fieldset>
+          <legend>Anket formu</legend>
+          <h3>Ad soyad</h3>
+        <div>
+
+          <label for="">İsim:</label>
+          <input type="text" name="fname" id="" required>
+        </div>
+
+        <br>
+
+        <div>
+          <label for="">Soy isim:</label>
+          <input type="text" name="fname" id="">
+        </div>
+        
+        <br>
+        
+        <div>
+          <h3>Cinsiyet</h3>
+          <input type="radio" name="fgender" id="" value="male">
+          <label for="male">Erkek</label>
+          <input type="radio" name="fgender" id="" value="female">
+          <label for="male">Kadın</label>
+          <input type="radio" name="fgender" id="" value="other">
+          <label for="male">Diğer</label>
+        </div>
+
+        <br>
+
+        <div>
+          <h3>Hobi seç</h3>
+          <div>
+            <input type="checkbox" name="fhobby" id="" value="gitar">
+            <label for="gitar">Gitar çalmak</label>
+          </div>
+          <br>
+          <div>
+            <input type="checkbox" name="fhobby" id="" value="film">
+            <label for="gitar">Film izlemek</label></div>
+        </div>
+        <br>
+        <div>
+          <input type="checkbox" name="fhobby" id="" value="kitap">
+          <label for="gitar">Kitap okumak</label>
+        </div>
+
+        <br>
+
+        <div>
+          <h3>Eğitim durumu</h3>
+          <div>
+            <select name="edu" id="">
+              <option value="orta">Orta okul</option>
+              <option value="lise">Lise mezunu</option>
+              <option value="üni">Üniversite mezunu</option>
+              <option value="doktora">Doktora mezunu</option>
+              <option value="hiçbiri" selected>Hiçbiri</option>
+            </select>
+          </div>
+        </div>
+
+        <br>
+
+        <div>
+          <input type="submit" value="Formu gönder">
+        </div>
+      </div>
+        </fieldset>
+        
+      </form>
+    </div>
+  </section>
+</body>
+</html>
